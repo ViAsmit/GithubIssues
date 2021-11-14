@@ -4,10 +4,7 @@ import { FETCH_ISSUES } from "./issueType";
 export const fetchIssues = (page) => {
   return async (dispatch) => {
     const response = await axios.get(
-      `https://api.github.com/repos/facebook/react/issues?per_page=10&&page=${page}`,
-      {
-        u: process.env.GITHUB_KEY,
-      }
+      `https://api.github.com/repos/facebook/react/issues?per_page=10&&page=${page}`
     );
     if (response.status === 200) {
       dispatch({

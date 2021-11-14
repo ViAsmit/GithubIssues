@@ -5,14 +5,11 @@ import Toolbar from "@mui/material/Toolbar";
 import Button from "@mui/material/Button";
 import IconButton from "@mui/material/IconButton";
 import MenuIcon from "@mui/icons-material/Menu";
-import AddIcon from "@mui/icons-material/Add";
-import { useHistory } from "react-router";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import NotificationsNoneOutlinedIcon from "@mui/icons-material/NotificationsNoneOutlined";
 import { Badge } from "@mui/material";
 
 export default function Header() {
-  const history = useHistory();
   return (
     <Box sx={{ flexGrow: 1 }}>
       <AppBar position="static" color="primary">
