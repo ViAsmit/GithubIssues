@@ -79,7 +79,7 @@ function IssuesScreen({ issues, fetchIssues, sortNewest, sortOldest }) {
             <TextField
               variant="outlined"
               value=" is:issue is:open"
-              style={{ width: "42vw" }}
+              style={{ width: "40vw" }}
               inputProps={{
                 style: {
                   padding: "5px",
